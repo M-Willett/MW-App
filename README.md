@@ -1,7 +1,5 @@
 MW-App
-======
-
-My first app - A basic portoflio
+My first iOS app - A basic portoflio app
 
 =====
 
