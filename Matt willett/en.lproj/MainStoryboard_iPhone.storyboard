@@ -17,17 +17,19 @@
                                     <constraint firstAttribute="height" constant="551" id="LaM-ac-MM4"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="20">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="355-FB-fur">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="43" id="hPK-pZ-yzi"/>
+                                    <constraint firstAttribute="height" constant="43" id="GdI-U9-sFM"/>
+                                    <constraint firstAttribute="width" constant="309" id="Qyb-EY-wHe"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="I'm Matt Willett. I design things. I made this app, just about." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="21">
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="I'm Matt Willett. I design things. I made this app, just about." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4VI-L0-pvU">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="pVp-LD-ksK"/>
+                                    <constraint firstAttribute="width" constant="240" id="5pB-mt-HKd"/>
+                                    <constraint firstAttribute="height" constant="52" id="Kzg-Nr-xnf"/>
                                 </constraints>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" size="system"/>
@@ -44,19 +46,17 @@
                         <constraints>
                             <constraint firstItem="fjx-ET-vbk" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="00v-KG-VIi"/>
                             <constraint firstItem="fjx-ET-vbk" firstAttribute="top" secondItem="16" secondAttribute="top" type="default" id="3xn-yW-puh"/>
+                            <constraint firstAttribute="bottom" secondItem="4VI-L0-pvU" secondAttribute="bottom" constant="197" id="9lQ-Kk-6hQ"/>
                             <constraint firstItem="34v-FX-2Mq" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="Ein-fy-DzR"/>
-                            <constraint firstItem="20" firstAttribute="top" secondItem="16" secondAttribute="top" constant="182" id="IL6-Hu-BkH"/>
-                            <constraint firstAttribute="trailing" secondItem="21" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="QBg-X6-fBV"/>
-                            <constraint firstAttribute="trailing" secondItem="20" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Qxj-1L-2Yh"/>
-                            <constraint firstItem="20" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Ty9-wx-CyI"/>
-                            <constraint firstItem="21" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Zmm-k2-2L7"/>
+                            <constraint firstItem="355-FB-fur" firstAttribute="top" secondItem="16" secondAttribute="top" constant="182" id="Q8A-Mj-3no"/>
                             <constraint firstItem="34v-FX-2Mq" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="bDK-2v-iQc"/>
                             <constraint firstItem="fjx-ET-vbk" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="hLL-n8-jS9"/>
+                            <constraint firstItem="355-FB-fur" firstAttribute="centerX" secondItem="34v-FX-2Mq" secondAttribute="centerX" type="default" id="hYG-8h-8iv"/>
                             <constraint firstItem="34v-FX-2Mq" firstAttribute="top" secondItem="16" secondAttribute="top" type="default" id="huf-kK-BUw"/>
-                            <constraint firstAttribute="bottom" secondItem="21" secondAttribute="bottom" constant="182" id="y20-yJ-nGe"/>
+                            <constraint firstItem="4VI-L0-pvU" firstAttribute="centerX" secondItem="355-FB-fur" secondAttribute="centerX" type="default" id="ohj-x8-n9p"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="more" id="7"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="nav-home.png" id="7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
             </objects>
@@ -83,9 +83,9 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="Loaded by the second view controller — an instance of matt_web_iosSecondViewController — specified in the app delegate." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="23">
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="I design interfaces, brands and apps for small, medium and large projects." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="23">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="88" id="cQR-IW-sY8"/>
+                                    <constraint firstAttribute="height" constant="52" id="Htv-hq-CCD"/>
                                 </constraints>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" size="system"/>
@@ -106,21 +106,21 @@
                             <constraint firstAttribute="trailing" secondItem="23" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="fR4-wH-Ih7"/>
                             <constraint firstItem="23" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="fzb-YA-SeR"/>
                             <constraint firstItem="flD-HX-FBd" firstAttribute="top" secondItem="17" secondAttribute="top" type="default" id="hek-c7-iFE"/>
+                            <constraint firstAttribute="bottom" secondItem="23" secondAttribute="bottom" constant="197" id="iCz-F9-T1n"/>
                             <constraint firstItem="flD-HX-FBd" firstAttribute="leading" secondItem="17" secondAttribute="leading" type="default" id="kAT-pW-GJP"/>
                             <constraint firstAttribute="trailing" secondItem="22" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="pc3-9Y-W42"/>
                             <constraint firstItem="ulF-wf-iBL" firstAttribute="leading" secondItem="17" secondAttribute="leading" type="default" id="r3W-Nl-djq"/>
                             <constraint firstItem="ulF-wf-iBL" firstAttribute="top" secondItem="17" secondAttribute="top" type="default" id="xDM-5C-oNA"/>
-                            <constraint firstItem="23" firstAttribute="top" secondItem="22" secondAttribute="bottom" constant="40" type="user" id="yUx-Ee-KEk"/>
                             <constraint firstItem="ulF-wf-iBL" firstAttribute="trailing" secondItem="17" secondAttribute="trailing" type="default" id="zUj-yA-g9J"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="6"/>
+                    <tabBarItem key="tabBarItem" title="Services" image="nav-imac.png" id="6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="674" y="-62"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Work-->
         <scene sceneID="IEj-Dz-IL3">
             <objects>
                 <viewController modalTransitionStyle="flipHorizontal" id="nnu-J4-4iP" sceneMemberID="viewController">
@@ -161,9 +161,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="HXu-WN-lna" firstAttribute="top" secondItem="v9Q-fn-nal" secondAttribute="top" constant="247" id="6Bi-LS-a5k"/>
                             <constraint firstItem="HXu-WN-lna" firstAttribute="centerX" secondItem="2cF-cC-DSu" secondAttribute="centerX" type="default" id="CKL-2K-57Q"/>
                             <constraint firstItem="X4n-ai-f4l" firstAttribute="leading" secondItem="v9Q-fn-nal" secondAttribute="leading" type="default" id="DbH-PF-k2g"/>
+                            <constraint firstItem="HXu-WN-lna" firstAttribute="top" secondItem="v9Q-fn-nal" secondAttribute="top" constant="241" id="Tsw-AQ-ksq"/>
                             <constraint firstItem="1jA-iv-iAz" firstAttribute="trailing" secondItem="v9Q-fn-nal" secondAttribute="trailing" type="default" id="dlv-LC-Gsb"/>
                             <constraint firstItem="1jA-iv-iAz" firstAttribute="top" secondItem="v9Q-fn-nal" secondAttribute="top" type="default" id="fNI-1a-1TY"/>
                             <constraint firstItem="X4n-ai-f4l" firstAttribute="trailing" secondItem="v9Q-fn-nal" secondAttribute="trailing" type="default" id="fpj-ri-ol6"/>
@@ -176,14 +176,14 @@
                             <outletCollection property="gestureRecognizers" destination="bOp-qR-wIX" appends="YES" id="Oyr-jT-pku"/>
                         </connections>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="contacts" id="y9U-qB-XxM"/>
+                    <tabBarItem key="tabBarItem" title="Work" image="nav-brush.png" id="y9U-qB-XxM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W0S-V0-FEH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="left" id="bOp-qR-wIX"/>
             </objects>
             <point key="canvasLocation" x="674" y="586"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Contact-->
         <scene sceneID="mwz-Nu-982">
             <objects>
                 <viewController id="ezu-hL-Xbv" sceneMemberID="viewController">
@@ -235,7 +235,7 @@
                             <constraint firstItem="K1x-w9-rxa" firstAttribute="trailing" secondItem="FgH-rd-70Z" secondAttribute="trailing" type="default" id="yDS-ys-uLe"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="recents" id="kT5-0O-amW"/>
+                    <tabBarItem key="tabBarItem" title="Contact" image="nav-mail.png" id="kT5-0O-amW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D3O-O3-Sfm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -265,18 +265,11 @@
     </scenes>
     <resources>
         <image name="imgmw-nebula.png" width="640" height="1136"/>
+        <image name="nav-brush.png" width="24" height="24"/>
+        <image name="nav-home.png" width="24" height="24"/>
+        <image name="nav-imac.png" width="24" height="24"/>
+        <image name="nav-mail.png" width="24" height="24"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="matt_web_iosFirstViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/matt_web_iosFirstViewController.h"/>
-        </class>
-        <class className="matt_web_iosSecondViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/matt_web_iosSecondViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

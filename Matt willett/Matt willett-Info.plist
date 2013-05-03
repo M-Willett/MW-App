@@ -14,10 +14,10 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>imgmw-appicon.png</string>
 				<string>imgmw-appicon@x2.png</string>
 				<string>imgmw-appicon-ipad.png</string>
 				<string>imgmw-appicon-ipad@x2.png</string>
+				<string>imgmw-appicon.png</string>
 			</array>
 			<key>UIPrerenderedIcon</key>
 			<true/>
