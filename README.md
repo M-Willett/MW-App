@@ -1,4 +1,5 @@
-MW-App
+MW - App
+=
 My first iOS app - A basic portoflio app
 
 =====
