@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0820F323172C1C0500EE6AE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0820F322172C1C0500EE6AE1 /* UIKit.framework */; };
+		0820F325172C1C0500EE6AE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0820F324172C1C0500EE6AE1 /* Foundation.framework */; };
+		0820F327172C1C0500EE6AE1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0820F326172C1C0500EE6AE1 /* CoreGraphics.framework */; };
+		0820F32D172C1C0500EE6AE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0820F32B172C1C0500EE6AE1 /* InfoPlist.strings */; };
+		0820F32F172C1C0500EE6AE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0820F32E172C1C0500EE6AE1 /* main.m */; };
+		0820F333172C1C0600EE6AE1 /* matt_web_iosAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0820F332172C1C0500EE6AE1 /* matt_web_iosAppDelegate.m */; };
+		0820F33C172C1C0600EE6AE1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0820F33A172C1C0600EE6AE1 /* MainStoryboard_iPhone.storyboard */; };
+		0820F33F172C1C0600EE6AE1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0820F33D172C1C0600EE6AE1 /* MainStoryboard_iPad.storyboard */; };
+		0820F342172C1C0600EE6AE1 /* matt_web_iosFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0820F341172C1C0600EE6AE1 /* matt_web_iosFirstViewController.m */; };
+		0820F344172C1C0600EE6AE1 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820F343172C1C0600EE6AE1 /* first.png */; };
+		0820F346172C1C0600EE6AE1 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820F345172C1C0600EE6AE1 /* first@2x.png */; };
+		0820F349172C1C0600EE6AE1 /* matt_web_iosSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0820F348172C1C0600EE6AE1 /* matt_web_iosSecondViewController.m */; };
+		0820F34B172C1C0600EE6AE1 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820F34A172C1C0600EE6AE1 /* second.png */; };
+		0820F34D172C1C0600EE6AE1 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820F34C172C1C0600EE6AE1 /* second@2x.png */; };
+		0820F354172C1C3B00EE6AE1 /* imgmw-appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820F353172C1C3B00EE6AE1 /* imgmw-appicon.png */; };
+		0820F356172C1C4E00EE6AE1 /* imgmw-appicon@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820F355172C1C4E00EE6AE1 /* imgmw-appicon@x2.png */; };
+		0820F358172C1EFF00EE6AE1 /* imgmw-appicon-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820F357172C1EFF00EE6AE1 /* imgmw-appicon-ipad.png */; };
+		0820F35A172C1F0400EE6AE1 /* imgmw-appicon-ipad@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820F359172C1F0400EE6AE1 /* imgmw-appicon-ipad@x2.png */; };
+		0820F35D172C4C7700EE6AE1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820F35C172C4C7700EE6AE1 /* Default.png */; };
+		0820F35F172C4C8400EE6AE1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820F35E172C4C8400EE6AE1 /* Default@2x.png */; };
+		0820F361172C4CD700EE6AE1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820F360172C4CD700EE6AE1 /* Default-568h@2x.png */; };
+		0820F363172C5BC000EE6AE1 /* imgmw-nebula.png in Resources */ = {isa = PBXBuildFile; fileRef = 0820F362172C5BC000EE6AE1 /* imgmw-nebula.png */; };
+		0820F365172C5D9D00EE6AE1 /* matt_web_iosThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0820F364172C5D9D00EE6AE1 /* matt_web_iosThirdViewController.m */; };
+		0820F369172C5E1600EE6AE1 /* matt_web_iosFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0820F368172C5E1600EE6AE1 /* matt_web_iosFourthViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0820F31F172C1C0500EE6AE1 /* Matt willett.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Matt willett.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0820F322172C1C0500EE6AE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0820F324172C1C0500EE6AE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0820F326172C1C0500EE6AE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0820F32A172C1C0500EE6AE1 /* Matt willett-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Matt willett-Info.plist"; sourceTree = "<group>"; };
+		0820F32C172C1C0500EE6AE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0820F32E172C1C0500EE6AE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0820F330172C1C0500EE6AE1 /* Matt willett-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Matt willett-Prefix.pch"; sourceTree = "<group>"; };
+		0820F331172C1C0500EE6AE1 /* matt_web_iosAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matt_web_iosAppDelegate.h; sourceTree = "<group>"; };
+		0820F332172C1C0500EE6AE1 /* matt_web_iosAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = matt_web_iosAppDelegate.m; sourceTree = "<group>"; };
+		0820F33B172C1C0600EE6AE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		0820F33E172C1C0600EE6AE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		0820F340172C1C0600EE6AE1 /* matt_web_iosFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matt_web_iosFirstViewController.h; sourceTree = "<group>"; };
+		0820F341172C1C0600EE6AE1 /* matt_web_iosFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = matt_web_iosFirstViewController.m; sourceTree = "<group>"; };
+		0820F343172C1C0600EE6AE1 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		0820F345172C1C0600EE6AE1 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		0820F347172C1C0600EE6AE1 /* matt_web_iosSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matt_web_iosSecondViewController.h; sourceTree = "<group>"; };
+		0820F348172C1C0600EE6AE1 /* matt_web_iosSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = matt_web_iosSecondViewController.m; sourceTree = "<group>"; };
+		0820F34A172C1C0600EE6AE1 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		0820F34C172C1C0600EE6AE1 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		0820F353172C1C3B00EE6AE1 /* imgmw-appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgmw-appicon.png"; sourceTree = "<group>"; };
+		0820F355172C1C4E00EE6AE1 /* imgmw-appicon@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgmw-appicon@x2.png"; sourceTree = "<group>"; };
+		0820F357172C1EFF00EE6AE1 /* imgmw-appicon-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgmw-appicon-ipad.png"; sourceTree = "<group>"; };
+		0820F359172C1F0400EE6AE1 /* imgmw-appicon-ipad@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgmw-appicon-ipad@x2.png"; sourceTree = "<group>"; };
+		0820F35B172C387200EE6AE1 /* matt_web_iosThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matt_web_iosThirdViewController.h; sourceTree = "<group>"; };
+		0820F35C172C4C7700EE6AE1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0820F35E172C4C8400EE6AE1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0820F360172C4CD700EE6AE1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0820F362172C5BC000EE6AE1 /* imgmw-nebula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgmw-nebula.png"; sourceTree = SOURCE_ROOT; };
+		0820F364172C5D9D00EE6AE1 /* matt_web_iosThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = matt_web_iosThirdViewController.m; sourceTree = "<group>"; };
+		0820F367172C5E1600EE6AE1 /* matt_web_iosFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matt_web_iosFourthViewController.h; sourceTree = "<group>"; };
+		0820F368172C5E1600EE6AE1 /* matt_web_iosFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = matt_web_iosFourthViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0820F31C172C1C0500EE6AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0820F323172C1C0500EE6AE1 /* UIKit.framework in Frameworks */,
+				0820F325172C1C0500EE6AE1 /* Foundation.framework in Frameworks */,
+				0820F327172C1C0500EE6AE1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0820F316172C1C0500EE6AE1 = {
+			isa = PBXGroup;
+			children = (
+				0820F360172C4CD700EE6AE1 /* Default-568h@2x.png */,
+				0820F35E172C4C8400EE6AE1 /* Default@2x.png */,
+				0820F35C172C4C7700EE6AE1 /* Default.png */,
+				0820F359172C1F0400EE6AE1 /* imgmw-appicon-ipad@x2.png */,
+				0820F357172C1EFF00EE6AE1 /* imgmw-appicon-ipad.png */,
+				0820F355172C1C4E00EE6AE1 /* imgmw-appicon@x2.png */,
+				0820F353172C1C3B00EE6AE1 /* imgmw-appicon.png */,
+				0820F328172C1C0500EE6AE1 /* Matt willett */,
+				0820F321172C1C0500EE6AE1 /* Frameworks */,
+				0820F320172C1C0500EE6AE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0820F320172C1C0500EE6AE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0820F31F172C1C0500EE6AE1 /* Matt willett.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0820F321172C1C0500EE6AE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0820F322172C1C0500EE6AE1 /* UIKit.framework */,
+				0820F324172C1C0500EE6AE1 /* Foundation.framework */,
+				0820F326172C1C0500EE6AE1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0820F328172C1C0500EE6AE1 /* Matt willett */ = {
+			isa = PBXGroup;
+			children = (
+				0820F343172C1C0600EE6AE1 /* first.png */,
+				0820F345172C1C0600EE6AE1 /* first@2x.png */,
+				0820F33D172C1C0600EE6AE1 /* MainStoryboard_iPad.storyboard */,
+				0820F33A172C1C0600EE6AE1 /* MainStoryboard_iPhone.storyboard */,
+				0820F362172C5BC000EE6AE1 /* imgmw-nebula.png */,
+				0820F331172C1C0500EE6AE1 /* matt_web_iosAppDelegate.h */,
+				0820F332172C1C0500EE6AE1 /* matt_web_iosAppDelegate.m */,
+				0820F340172C1C0600EE6AE1 /* matt_web_iosFirstViewController.h */,
+				0820F341172C1C0600EE6AE1 /* matt_web_iosFirstViewController.m */,
+				0820F347172C1C0600EE6AE1 /* matt_web_iosSecondViewController.h */,
+				0820F348172C1C0600EE6AE1 /* matt_web_iosSecondViewController.m */,
+				0820F35B172C387200EE6AE1 /* matt_web_iosThirdViewController.h */,
+				0820F364172C5D9D00EE6AE1 /* matt_web_iosThirdViewController.m */,
+				0820F367172C5E1600EE6AE1 /* matt_web_iosFourthViewController.h */,
+				0820F368172C5E1600EE6AE1 /* matt_web_iosFourthViewController.m */,
+				0820F34A172C1C0600EE6AE1 /* second.png */,
+				0820F34C172C1C0600EE6AE1 /* second@2x.png */,
+				0820F329172C1C0500EE6AE1 /* Supporting Files */,
+			);
+			path = "Matt willett";
+			sourceTree = "<group>";
+		};
+		0820F329172C1C0500EE6AE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0820F32A172C1C0500EE6AE1 /* Matt willett-Info.plist */,
+				0820F32B172C1C0500EE6AE1 /* InfoPlist.strings */,
+				0820F32E172C1C0500EE6AE1 /* main.m */,
+				0820F330172C1C0500EE6AE1 /* Matt willett-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0820F31E172C1C0500EE6AE1 /* Matt willett */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0820F350172C1C0600EE6AE1 /* Build configuration list for PBXNativeTarget "Matt willett" */;
+			buildPhases = (
+				0820F31B172C1C0500EE6AE1 /* Sources */,
+				0820F31C172C1C0500EE6AE1 /* Frameworks */,
+				0820F31D172C1C0500EE6AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Matt willett";
+			productName = "Matt willett";
+			productReference = 0820F31F172C1C0500EE6AE1 /* Matt willett.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0820F317172C1C0500EE6AE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = matt_web_ios;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Matt Willett";
+			};
+			buildConfigurationList = 0820F31A172C1C0500EE6AE1 /* Build configuration list for PBXProject "Matt willett" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0820F316172C1C0500EE6AE1;
+			productRefGroup = 0820F320172C1C0500EE6AE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0820F31E172C1C0500EE6AE1 /* Matt willett */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0820F31D172C1C0500EE6AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0820F32D172C1C0500EE6AE1 /* InfoPlist.strings in Resources */,
+				0820F33C172C1C0600EE6AE1 /* MainStoryboard_iPhone.storyboard in Resources */,
+				0820F33F172C1C0600EE6AE1 /* MainStoryboard_iPad.storyboard in Resources */,
+				0820F344172C1C0600EE6AE1 /* first.png in Resources */,
+				0820F346172C1C0600EE6AE1 /* first@2x.png in Resources */,
+				0820F34B172C1C0600EE6AE1 /* second.png in Resources */,
+				0820F34D172C1C0600EE6AE1 /* second@2x.png in Resources */,
+				0820F354172C1C3B00EE6AE1 /* imgmw-appicon.png in Resources */,
+				0820F356172C1C4E00EE6AE1 /* imgmw-appicon@x2.png in Resources */,
+				0820F358172C1EFF00EE6AE1 /* imgmw-appicon-ipad.png in Resources */,
+				0820F35A172C1F0400EE6AE1 /* imgmw-appicon-ipad@x2.png in Resources */,
+				0820F35D172C4C7700EE6AE1 /* Default.png in Resources */,
+				0820F35F172C4C8400EE6AE1 /* Default@2x.png in Resources */,
+				0820F361172C4CD700EE6AE1 /* Default-568h@2x.png in Resources */,
+				0820F363172C5BC000EE6AE1 /* imgmw-nebula.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0820F31B172C1C0500EE6AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0820F32F172C1C0500EE6AE1 /* main.m in Sources */,
+				0820F333172C1C0600EE6AE1 /* matt_web_iosAppDelegate.m in Sources */,
+				0820F342172C1C0600EE6AE1 /* matt_web_iosFirstViewController.m in Sources */,
+				0820F349172C1C0600EE6AE1 /* matt_web_iosSecondViewController.m in Sources */,
+				0820F365172C5D9D00EE6AE1 /* matt_web_iosThirdViewController.m in Sources */,
+				0820F369172C5E1600EE6AE1 /* matt_web_iosFourthViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0820F32B172C1C0500EE6AE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0820F32C172C1C0500EE6AE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0820F33A172C1C0600EE6AE1 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0820F33B172C1C0600EE6AE1 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0820F33D172C1C0600EE6AE1 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0820F33E172C1C0600EE6AE1 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0820F34E172C1C0600EE6AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0820F34F172C1C0600EE6AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0820F351172C1C0600EE6AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Matt willett/Matt willett-Prefix.pch";
+				INFOPLIST_FILE = "Matt willett/Matt willett-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0820F352172C1C0600EE6AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Matt willett/Matt willett-Prefix.pch";
+				INFOPLIST_FILE = "Matt willett/Matt willett-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0820F31A172C1C0500EE6AE1 /* Build configuration list for PBXProject "Matt willett" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0820F34E172C1C0600EE6AE1 /* Debug */,
+				0820F34F172C1C0600EE6AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0820F350172C1C0600EE6AE1 /* Build configuration list for PBXNativeTarget "Matt willett" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0820F351172C1C0600EE6AE1 /* Debug */,
+				0820F352172C1C0600EE6AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0820F317172C1C0500EE6AE1 /* Project object */;
+}
